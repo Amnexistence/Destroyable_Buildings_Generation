@@ -2,7 +2,7 @@
 Some Unity C# to generate destructible buildings (based on Asset Forge assets and Kenney Lua code).
 
 HOW TO USE:
-Add scripts and buildings assets files to your project. Create object with BuildGen script component. Set parameter limits for generated buildings in BuildGen and assets for generation (use prefab Variant versions).
+Add scripts and buildings asset files to your project. Create object with BuildGen script component. Set parameter limits for generated buildings in BuildGen and assets for generation (use prefab Variant versions).
 The structure of Variants must match the structure of modules imported from Asset Forge (current assets as example). They must have a child with BuildModuleCollision script and additional components.
 
 Additional (destroyable):
